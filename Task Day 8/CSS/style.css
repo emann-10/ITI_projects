@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    /* font-family: Arial, sans-serif; */
+}
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 50px;
+    width: 100%;
+    padding: 5px 20px;
+}
+.logo img {
+    width: 150px;
+}
+.nav {
+    padding-left: 300px;
+}
+.nav a {
+    color: whitesmoke;
+    width:250px;
+    gap: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.nav a:hover {
+    color: #ae9265;
+}
+.hero-section {
+    background-color: aquamarine;
+    height: 100vh;
+    background-image: url(../assets/Images/backgrounddd.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content {
+    padding: 10px;
+    width: 500px;
+}
+.hero-content p {
+    padding: 10px 10px;
+}
+.hero-content h1 {
+    font-size: 40px;
+}
+.hero-content button {
+    margin: 10px 0;
+    padding: 10px 10px;
+    border: none
+}
+.hero-content button:hover {
+    color: black;
+}
+.hero-content .learn-more {
+    background-color: #ae9265;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.hero-content .contact {
+    background-color: #b89b6b;
+    background: transparent;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+.To-tob {
+    background-color: whitesmoke;
+    width: 20px;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 400px;
+}
+.who-we-are {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.who-we-are img {
+    width: 600px;
+    padding: 20px 50px;
+}
+.who-we-are-text {
+    font-size: 20px;
+    padding: 20px;
+}
+.who-we-are h2 {
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.who-we-are p {
+    padding-bottom: 20px;
+}
+.who-we-are-fuature {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.feature-item {
+    display: flex;
+    align-items: center;
+} 
+.feature-item span {
+    color: #9f8965;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(214, 205, 205);
+    border-radius: 50%;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.feature-item p {
+    padding-left: 10px;
+
+}

@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(225, 168, 178);
+}
+nav a{
+    color: rgb(5, 5, 54);
+}
+h1{
+    color:rgb(137, 61, 47)
+}
+h2{
+    color:rgb(65, 63, 63);
+}
+ul, 
+li{
+    display: flex;
+    gap: 10px;
+}

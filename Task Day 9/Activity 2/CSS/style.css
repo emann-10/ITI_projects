@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(74, 174, 207);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.navbar nav {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+}
+
+.navbar nav a:hover {
+    color: rgb(74, 174, 207);
+}
+
+.main-section {
+    margin: 20px 10px;
+    display: flex;
+    padding: 25px 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.main-section .articles {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.main-section .articles h2 {
+    margin: 5px 0;
+}
+
+.main-section .articles p {
+    margin: 5px 0;
+}
+
+.main-section .aside {
+    background-color: rgb(253, 248, 248);
+    padding: 10px;
+    margin-left: 60px;
+    width: fit-content;
+    height: 80px;
+}
+
+.galarey {
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    margin: 0 0;
+    grid-template-areas:
+        "art1 art2 art3"
+        "art4 art art6"
+        "art7 art8 art9"
+    ;
+}
+
+.galarey img {
+    width: 200px;
+}
+
+.galarey h2 {
+    font-size: 20px;
+}
+
+.galarey button {
+    background-color: rgb(74, 174, 207);
+    color: whitesmoke;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+
+.comment {
+    padding: 0px 10px;
+}
+
+#comment {
+    width: 100%;
+    height: 25px;
+    margin: 0 30px;
+    padding: 3px;
+}
+
+.comment button {
+    color: whitesmoke;
+    background-color: rgb(74, 174, 207);
+    text-align: center;
+    display: flex;
+    margin: auto auto;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    color: whitesmoke;
+    background-color: rgb(74, 174, 207);
+    text-align: center;
+    padding: 5px;
+    margin-top: 100px;
+}

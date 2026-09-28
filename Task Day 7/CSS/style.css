@@ -1,0 +1,56 @@
+:root{
+    --primary-color:whitesmoke;
+
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-1 {
+    background-color:rgb(134, 25, 25);
+    width: 550px;
+    height: 550px;
+    padding: 50px 50px;
+    margin: 100px auto;
+    border: 2px dashed white;
+    border-radius: 40px;
+    color:var(--primary-color);
+    text-align: center;
+/* الظل بتاع البوكسx   y  Blure color*/ 
+    box-shadow:      0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.card-1 h2 {
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    line-height: 50px;
+
+}
+.card-1 .job {
+    font-size: 25px;
+}
+.card-1 .description {
+   padding: 15px 15px;
+}
+.card-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+}
+.btn {
+    padding: 10px 10px;
+    margin: 10px auto;
+    background-color:rgb(138, 132, 132) ;
+    color: var(--primary-color);
+    border-radius: 10px;
+    /* تغيير شكل الماوس */
+    cursor: pointer;
+}
+.btn:hover {
+    color: rgb(134, 25, 25);
+}

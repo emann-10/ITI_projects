@@ -1,0 +1,93 @@
+ * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+
+ .header {
+    background-color: rgb(74, 174, 207);
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+ }
+
+ .navbar {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .navbar nav {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    justify-content: space-around;
+ }
+
+ .navbar nav a {
+    text-decoration: none;
+ }
+ .navbar a:hover{
+    color: rgb(74, 174, 207);
+ }
+
+ .main-section {
+    padding: 25px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+
+ .main-section .arts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 700px;
+ }
+
+ .main-section .aside {
+    background-color: rgb(253, 248, 248);
+    height: 100px;
+    padding: 10px;
+
+ }
+
+ .main-section h2 {
+    padding: 10px;
+ }
+
+ .main-section p {
+    padding-left: 10px;
+ }
+
+ .comment {
+    padding: 0px 10px;
+ }
+
+ #comment {
+    width: 100%;
+    height: 25px;
+    margin: 10px 30px;
+    padding: 3px;
+ }
+
+ .comment button {
+    color: whitesmoke;
+    background-color: rgb(74, 174, 207);
+    text-align: center;
+    display: flex;
+    margin: auto auto;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 10px;
+ }
+
+ .footer {
+    color: whitesmoke;
+    background-color: rgb(74, 174, 207);
+    text-align: center;
+    padding: 5px;
+    margin-top: 200px;
+ }

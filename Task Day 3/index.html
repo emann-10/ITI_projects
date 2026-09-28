@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my Portfolio Page Project">
+    <title>My Portfolio Page Project</title>
+</head>
+<body>
+    <section id="header">
+        <header>
+        <span>Eman Ramadan</span>
+        <nav>
+            <a href="#hero">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    </section>
+    <main>
+        <section id="hero">
+        <Hero>
+        <img src="assets/Images/images (1).jfif" alt="Profile Image" width="150" height="150" style="float: right;">
+        <h1>Hello, I'm Eman Ramadan</h1>
+        <p>I'm a web developer passionate about creating beautiful and functional websites.</p>
+        
+    </Hero>
+    </section>
+    <hr>
+    <section id="skills">
+        <h3>My Skills</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <br>
+        <h3>Steps for Learning Web Development</h3>
+        <ol>
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+            <li>Build Projects</li>
+        </ol>
+        <p>Web development is a <strong>rewarding field </strong>
+            that combines <em><mark>design and problem-solving skills.</mark></em> </p>
+    </section>
+    <hr>
+    <section id="my-courses">
+        <caption><b>My Courses</b></caption>
+        <table style="text-align: center;">
+            <tr>
+                <th width="200">Course Name</th>
+                <th width="150">Duration</th>
+                <th width="150">Status</th>
+            </tr>
+            <tbody>
+                <tr>
+                <td width="200">Python</td>
+                <td width="150">2 Months</td>
+                <td width="150">Completed</td>
+            </tr>
+             <tr>
+                <td width="200">Scratch</td>
+                <td width="150">1 Month</td>
+                <td width="150">Completed</td>
+            </tr>
+             <tr>
+                <td width="200">JavaScript</td>
+                <td width="150">3 Months</td>
+                <td width="150">In Progress</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Courses: 3 & Total duration: 6 Months</td>
+                </tr>
+            </tfoot>
+            </tbody>
+        </table>
+    </section><br><br>
+    <section id="gallery">
+        <h3>Images of Courses</h3>
+        <figure>
+            <img src="assets/Images/Python-logo-notext.svg.webp" alt="Python Image" width="300">
+            <figcaption>Python</figcaption>
+        </figure>
+        <figure>
+            <img src="assets/Images/scratch-cat-logo-png_seeklogo-431721.png" alt="Scratch Image" width="300">
+            <figcaption>Scratch</figcaption>
+        </figure>
+        <figure>
+            <img src="assets/Images/javascript-logo-javascript-icon-transparent-free-png.webp" alt="JavaScript Image" width="300">
+            <figcaption>JavaScript</figcaption>
+        </figure>
+    </section>
+    <hr>
+    <section id="contact">
+        <form>
+            <fieldset>
+                <legend>Contact Me</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Tel Number">Phone Number:</label>
+                        </td>
+                        <td>
+                            <input type="tel" id="Tel Number" name="Tel Number" placeholder="Enter Your Phone Number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Birthday">Date of Birthday:</label>
+                        </td>
+                        <td>
+                            <input type="date" id="Birthday" name="Birthday" placeholder="Enter Your Birthday">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="message">Message:</label>
+                        </td>
+                        <td>
+                            <textarea cols="30" rows="5" id="message" name="message" placeholder="Enter Your Message"></textarea>
+                        </td>
+                    </tr>
+                </table>
+
+                 <label for="subject">Subject :</label>
+                        <select id="subject" name="subject">
+                            <option value="qustion">Question</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="feedback">Feedback</option>
+                        </select>
+
+                 <h3>
+                    What is your favorite communication method?
+                 </h3>
+                 <input type="radio"id="Email" name="communication" value="Email">
+                 <label for="Email">Email</label><br>
+                 <input type="radio"id="phone" name="communication" value="phone">
+                 <label for="phone">Phone</label>
+                <br><br>
+                <input type="checkbox" id="terms" name="terms" value="yes">
+                <label for="terms">I agree to the terms and conditions</label>
+                <br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <br>
+            </fieldset>
+        </form>
+    </section>
+    <section id="Q&A">
+        <h3>FAQ</h3>
+        <p>Here are some frequently asked questions and their answers.</p>
+        <details>
+            <summary>What is web development?</summary>
+            <p>Web development is the work of creating websites and web applications that run on the internet.</p>
+        </details>
+        <details>
+            <summary>How can I get started with web development?</summary>
+            <p>Getting started with web development involves learning the basics of HTML, CSS, and JavaScript.</p>
+        </details>
+        <details>
+            <summary>What are the benefits of web development?</summary>
+            <p>Web development offers numerous benefits, including the ability to reach a global audience, cost-effective marketing, and the flexibility to update content easily.</p>
+        </details>
+    </section>
+</main>
+<section id="footer">
+        <footer>
+            <h3>Contact Information</h3>
+            <address>
+                Email: <a href="mailto:emawwxxxxx@gmail.com">emawwxxxxx@gmail.com</a><br>
+                Location: Egypt
+            </address>
+            <p>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">WhatsApp</a>
+                <a href="#" target="_blank">GitHub</a>
+                <a href="#" target="_blank">Instagram</a>
+            </p>
+            <p>
+                &copy; 2023 Your Company. All rights reserved.
+            </p>
+        </footer>
+    </section>
+</body>
+</html>
