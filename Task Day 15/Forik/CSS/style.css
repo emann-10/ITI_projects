@@ -3,15 +3,28 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
 body {
     background-color: lightblue;
 }
-.container {
-    height: 100vh;
+.container-fluid {
+    width: fit-content;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background: transparent;
+    border: none;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
 }
 .card-img-top {
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
+    height: 300px;
+}
+.card-text {
+    display: none;
 }
